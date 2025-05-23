@@ -24,12 +24,12 @@ public class ManiquiUIControl : MonoBehaviour
     {
         if (animator == null)
         {
-            Debug.LogError("Animator no asignado en ManiquiUIControl.");
+            //Debug.LogError("Animator no asignado en ManiquiUIControl.");
             return;
         }
 
         animator.SetInteger("state", estado);
-        Debug.Log("Se cambió el parámetro 'state' del Animator a: " + estado);
+        //Debug.Log("Se cambi? el par?metro 'state' del Animator a: " + estado);
     }
 
     void Update()
@@ -37,7 +37,7 @@ public class ManiquiUIControl : MonoBehaviour
         if (animator != null)
         {
             int currentState = animator.GetInteger("state");
-            Debug.Log("Estado actual del Animator: " + currentState);
+            //Debug.Log("Estado actual del Animator: " + currentState);
         }
     }
 }
