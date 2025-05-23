@@ -5,15 +5,18 @@ public class RopaChangerMulti : MonoBehaviour
 {
     [Header("Dropdowns")]
     public TMP_Dropdown dropdownSuperiores;
+    public TMP_Dropdown dropdownCom;
     public TMP_Dropdown dropdownInferiores;
     public TMP_Dropdown dropdownCalzado;
 
     [Header("Prendas")]
     public GameObject[] prendasSuperiores;
+    public GameObject[] prendascomplementarias;
     public GameObject[] prendasInferiores;
     public GameObject[] calzados;
 
     private GameObject ropaActualSuperior;
+    private GameObject ropaActuacoplementaria;
     private GameObject ropaActualInferior;
     private GameObject calzadoActual;
 
@@ -21,17 +24,22 @@ public class RopaChangerMulti : MonoBehaviour
     {
         // Apaga todo al inicio
         ApagarGrupo(prendasSuperiores);
+        ApagarGrupo(prendascomplementarias);
         ApagarGrupo(prendasInferiores);
         ApagarGrupo(calzados);
 
         // Asignar listeners para cada dropdown
         dropdownSuperiores.onValueChanged.AddListener(CambiarSuperior);
+        dropdownCom.onValueChanged.AddListener(CambiarCom);
         dropdownInferiores.onValueChanged.AddListener(CambiarInferior);
         dropdownCalzado.onValueChanged.AddListener(CambiarCalzado);
 
         // Opcional: inicializar dropdowns en -1 o 0 para que no haya prendas activas al inicio
         dropdownSuperiores.value = -1;
         dropdownSuperiores.RefreshShownValue();
+
+        dropdownCom.value = -1;
+        dropdownCom.RefreshShownValue();
 
         dropdownInferiores.value = -1;
         dropdownInferiores.RefreshShownValue();
@@ -59,6 +67,22 @@ public class RopaChangerMulti : MonoBehaviour
         else
         {
             ropaActualSuperior = null;
+        }
+    }
+
+    public void CambiarCom(int index)
+    {
+        if (ropaActuacoplementaria != null)
+            ropaActuacoplementaria.SetActive(false);
+
+        if (index >= 0 && index < prendascomplementarias.Length)
+        {
+            ropaActuacoplementaria = prendascomplementarias[index];
+            ropaActuacoplementaria.SetActive(true);
+        }
+        else
+        {
+            ropaActuacoplementaria = null;
         }
     }
 

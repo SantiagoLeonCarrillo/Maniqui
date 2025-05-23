@@ -99,12 +99,12 @@ Material:
     - _UVSec: 0
     - _ZWrite: 1
     m_Colors:
-    - _Color: {r: 0.19833584, g: 0.76478785, b: 1, a: 1}
+    - _Color: {r: 0.8206808, g: 0.27976784, b: 0.38057667, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SecOffset: {r: 0, g: 0.25434962, b: 0, a: 0}
     - _SecScale: {r: 20.1, g: 20.1, b: 20, a: 20}
     - _SecondaryColor: {r: 1, g: 1, b: 1, a: 1}
-    - _SecondaryTexOffset: {r: -1.1233746, g: -0.5400168, b: 0, a: 0}
+    - _SecondaryTexOffset: {r: -0.618471, g: -0.5400168, b: 0, a: 0}
     - _SecondaryTexScale: {r: -5, g: 5, b: 0, a: 0}
     - _StampOffset: {r: 0, g: 0, b: 0, a: 0}
   m_BuildTextureStacks: []
