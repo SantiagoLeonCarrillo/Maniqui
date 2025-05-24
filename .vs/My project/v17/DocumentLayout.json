@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "D:\\Unity\\My project\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\\my project\\assets\\scripts\\maniquiuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\\My project\\assets\\scripts\\ourfitcustomization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ourfitcustomization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|d:\\unity\\my project\\assets\\scripts\\ropachangermulticonbotones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ropachangermulticonbotones.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\\My project\\assets\\scripts\\maniquiuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\maniquiuicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\\My project\\assets\\scripts\\outfitcolorchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\outfitcolorchange.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|D:\\Unity\\My project\\assets\\scripts\\ourfitcustomization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{32C3BDE6-E125-3128-82C1-25D0441455A3}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\ourfitcustomization.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +34,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "RopaChangerMultiConBotones.cs",
+              "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Scripts\\RopaChangerMultiConBotones.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\RopaChangerMultiConBotones.cs",
+              "ToolTip": "D:\\Unity\\My project\\Assets\\Scripts\\RopaChangerMultiConBotones.cs",
+              "RelativeToolTip": "Assets\\Scripts\\RopaChangerMultiConBotones.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-24T16:40:27.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "ManiquiUiController.cs",
               "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Scripts\\ManiquiUiController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ManiquiUiController.cs",
@@ -42,12 +59,11 @@
               "RelativeToolTip": "Assets\\Scripts\\ManiquiUiController.cs",
               "ViewState": "AQIAABAAAAAAAAAAAAAgwCsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-19T19:38:57.086Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-19T19:38:57.086Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "ClothinSecondaryMap.shader",
               "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Materials\\ClothinSecondaryMap.shader",
               "RelativeDocumentMoniker": "Assets\\Materials\\ClothinSecondaryMap.shader",
@@ -59,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ClothingCustomizer.cs",
               "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Scripts\\ClothingCustomizer.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ClothingCustomizer.cs",
@@ -71,19 +87,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "OurfitCustomization.cs",
               "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Scripts\\OurfitCustomization.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OurfitCustomization.cs",
               "ToolTip": "D:\\Unity\\My project\\Assets\\Scripts\\OurfitCustomization.cs",
               "RelativeToolTip": "Assets\\Scripts\\OurfitCustomization.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAgwD8AAAABAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAuwD8AAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-18T18:11:03.808Z"
+              "WhenOpened": "2025-04-18T18:11:03.808Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "OutfitColorChange.cs",
               "DocumentMoniker": "D:\\Unity\\My project\\Assets\\Scripts\\OutfitColorChange.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\OutfitColorChange.cs",
