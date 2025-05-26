@@ -11877,10 +11877,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   prendasSuperiores:
-  - {fileID: 378768397}
+  - {fileID: 0}
   - {fileID: 378768396}
   - {fileID: 378768395}
-  - {fileID: 378768394}
+  - {fileID: 0}
   - {fileID: 378768393}
   - {fileID: 378768392}
   prendasInferiores:
@@ -13219,19 +13219,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 362002295}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &362002295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13252,7 +13240,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 26138bcaf9b7aa14ebdcceb9269bb503, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14019,13 +14007,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
-    m_RemovedGameObjects: []
+    m_RemovedGameObjects:
+    - {fileID: 589100605177985491, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
+    - {fileID: 1896424995507640566, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
     m_AddedGameObjects:
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
       insertIndex: 0
       addedObject: {fileID: 1843326188}
     - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
-      insertIndex: 9
+      insertIndex: 1
+      addedObject: {fileID: 2010765988076987293}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
+      insertIndex: 2
+      addedObject: {fileID: 6277435336468540942}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 1528030872374050330}
+    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
+      insertIndex: 10
       addedObject: {fileID: 2018400802}
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
@@ -14084,11 +14083,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: -2086596239726585653, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
   m_PrefabInstance: {fileID: 378768382}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &378768394 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1896424995507640566, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
-  m_PrefabInstance: {fileID: 378768382}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &378768395 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2480355417284822678, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
@@ -14097,11 +14091,6 @@ GameObject:
 --- !u!1 &378768396 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -6285396560392253047, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
-  m_PrefabInstance: {fileID: 378768382}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &378768397 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 589100605177985491, guid: 8f7bf6d3a0b25434da4e0463ed9bee62, type: 3}
   m_PrefabInstance: {fileID: 378768382}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &381150721
@@ -15765,7 +15754,7 @@ GameObject:
   - component: {fileID: 427412024}
   - component: {fileID: 427412023}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: BtnJogger
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -15833,19 +15822,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 427412024}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &427412024
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15866,7 +15843,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe447f50d7ef53c4e9573a72015f35a3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17122,19 +17099,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 459573463}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &459573463
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17155,7 +17120,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1e4440979ac805342910654091a6cfa3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22942,7 +22907,7 @@ GameObject:
   - component: {fileID: 608619067}
   - component: {fileID: 608619066}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: ButtonZapatos
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -23010,19 +22975,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 608619067}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &608619067
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23043,7 +22996,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: fe3aaed47fbb6e94ea019a2962ebb2cb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23353,19 +23306,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 619621247}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &619621247
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -29640,19 +29581,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 805046070}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &805046070
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31096,7 +31025,7 @@ GameObject:
   - component: {fileID: 851513845}
   - component: {fileID: 851513844}
   m_Layer: 5
-  m_Name: Button (2)
+  m_Name: ButtonTenis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -31164,19 +31093,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 851513845}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &851513845
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -31197,7 +31114,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 492bfd17816e55a499bd5b8df807423c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -35529,12 +35446,12 @@ RectTransform:
   - {fileID: 914754422}
   - {fileID: 1791455461}
   - {fileID: 424392637}
-  - {fileID: 1774350167}
   - {fileID: 721176592}
   - {fileID: 1709648595}
   - {fileID: 1716255171}
   - {fileID: 1272497026}
   - {fileID: 2018167023}
+  - {fileID: 1774350167}
   m_Father: {fileID: 1402048134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -35744,8 +35661,8 @@ MonoBehaviour:
   - {fileID: 378768387}
   prendasComplementarias:
   - {fileID: 1843326187}
-  - {fileID: 378768397}
-  - {fileID: 378768394}
+  - {fileID: 1914867016180424738}
+  - {fileID: 643850896655352071}
   - {fileID: 378768393}
   prendasInferiores:
   - {fileID: 1843326187}
@@ -36002,7 +35919,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &985192970
 RectTransform:
   m_ObjectHideFlags: 0
@@ -36065,19 +35982,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 985192972}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &985192972
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38202,19 +38107,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1025857418}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1025857418
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -38235,7 +38128,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0f6ce4a9a7054ad448f086f8f4f5842e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -40713,19 +40606,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1079194777}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1079194777
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -40746,7 +40627,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8845696e4ebda8246aedb20199a669a1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -52600,19 +52481,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1358051970}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1358051970
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52633,7 +52502,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b84e4c0e1f035224ab5555461c3fee1a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -53962,7 +53831,7 @@ GameObject:
   - component: {fileID: 1383233033}
   - component: {fileID: 1383233032}
   m_Layer: 5
-  m_Name: Button (4)
+  m_Name: Btn Pantaloneta
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -54030,19 +53899,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1383233033}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1383233033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -54063,7 +53920,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b945e5e3582c4a44f8afb98dc58e6d20, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -55052,8 +54909,12 @@ RectTransform:
   m_Children:
   - {fileID: 281841959}
   - {fileID: 971177974}
-  - {fileID: 1773458825}
-  - {fileID: 1616228245}
+  - {fileID: 1554779775}
+  - {fileID: 489092598}
+  - {fileID: 1541880325}
+  - {fileID: 1896079247}
+  - {fileID: 273884780}
+  - {fileID: 42428970}
   - {fileID: 1544949969}
   - {fileID: 1243573916}
   - {fileID: 1611931537}
@@ -55063,12 +54924,8 @@ RectTransform:
   - {fileID: 461456595}
   - {fileID: 819692679}
   - {fileID: 709256986}
-  - {fileID: 1554779775}
-  - {fileID: 489092598}
-  - {fileID: 1541880325}
-  - {fileID: 1896079247}
-  - {fileID: 273884780}
-  - {fileID: 42428970}
+  - {fileID: 1773458825}
+  - {fileID: 1616228245}
   m_Father: {fileID: 1402048134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -56982,7 +56839,7 @@ GameObject:
   - component: {fileID: 1451554959}
   - component: {fileID: 1451554958}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: ButtonSandalias
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -57050,19 +56907,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1451554959}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1451554959
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -57083,7 +56928,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f18fab59c77a992459ed9dede28c9abb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -63002,7 +62847,7 @@ GameObject:
   - component: {fileID: 1623824470}
   - component: {fileID: 1623824469}
   m_Layer: 5
-  m_Name: Button (3)
+  m_Name: BtnAjustado
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -63070,19 +62915,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1623824470}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1623824470
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -63103,7 +62936,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 129a9bb9e01e0cc42ab10d8dbd90bf7f, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -65936,7 +65769,7 @@ GameObject:
   - component: {fileID: 1710044036}
   - component: {fileID: 1710044035}
   m_Layer: 5
-  m_Name: Button (1)
+  m_Name: BtnPantalon
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -66004,19 +65837,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1710044036}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1710044036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66037,7 +65858,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a0dc3cfe90a19944a8ac7ea5c20fc4b3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -67663,19 +67484,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1741627127}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1741627127
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72761,19 +72570,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1869557105}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1869557105
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -72794,7 +72591,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 977b890fab1f2e34f89ce75d6cf313a2, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -73241,19 +73038,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1883366935}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &1883366935
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -73274,7 +73059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a656398b4ab8648f4aad26e7a1a8a5e7, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c32b9c933b2527c4c81e018189274428, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -79353,19 +79138,7 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 2046699597}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls:
-      - m_Target: {fileID: 1841893802}
-        m_TargetAssemblyTypeName: SkyboxChanger, Assembly-CSharp
-        m_MethodName: SetSkyboxByIndex
-        m_Mode: 3
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
+      m_Calls: []
 --- !u!114 &2046699597
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -81121,12 +80894,12 @@ RectTransform:
   - {fileID: 1562447500}
   - {fileID: 710968371}
   - {fileID: 1271614521}
-  - {fileID: 1928694335}
   - {fileID: 645683508}
   - {fileID: 1772890269}
   - {fileID: 1250468672}
   - {fileID: 1597894112}
   - {fileID: 1869793145}
+  - {fileID: 1928694335}
   m_Father: {fileID: 1402048134}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -82823,6 +82596,203 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2140233526}
   m_CullTransparentMesh: 1
+--- !u!1 &643850896655352071
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6277435336468540942}
+  - component: {fileID: 9216661274850623311}
+  - component: {fileID: 5791990089248564712}
+  m_Layer: 0
+  m_Name: Chaqueta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &1528030872374050330
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2197606359046759584}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.25032598, z: -0, w: 0.96816164}
+  m_LocalPosition: {x: -0.066780694, y: -0.031645287, z: -0.3099821}
+  m_LocalScale: {x: 1.0051937, y: 1.0051936, z: 1.0051937}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 378768383}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1914867016180424738
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2010765988076987293}
+  - component: {fileID: 4042430239363663394}
+  - component: {fileID: 8633536380072273081}
+  m_Layer: 0
+  m_Name: Blazer
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &2010765988076987293
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914867016180424738}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4850314, y: 2.5875108, z: 0.32854724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 378768383}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2197606359046759584
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1528030872374050330}
+  m_Layer: 0
+  m_Name: RopaCorregida
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!33 &4042430239363663394
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914867016180424738}
+  m_Mesh: {fileID: -1956933754921757196, guid: b6c9658fb05660746b13397322943b54, type: 3}
+--- !u!23 &5791990089248564712
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643850896655352071}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 9b4f8ebb8d672474a9a2798cea7d7ba0, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!4 &6277435336468540942
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643850896655352071}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.4850314, y: 2.5875108, z: 0.32854724}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 378768383}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!23 &8633536380072273081
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1914867016180424738}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: ecd5717765eab114f94058886a0bb5a1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_AdditionalVertexStreams: {fileID: 0}
+--- !u!33 &9216661274850623311
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 643850896655352071}
+  m_Mesh: {fileID: -4346878592092533057, guid: b6c9658fb05660746b13397322943b54, type: 3}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
