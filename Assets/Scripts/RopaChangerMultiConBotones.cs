@@ -27,6 +27,9 @@ public class RopaChangerMultiConBotones : MonoBehaviour
     public Slider sliderR_Inf, sliderG_Inf, sliderB_Inf;
     public Slider sliderR_Calz, sliderG_Calz, sliderB_Calz;
 
+    [Header("Botón Ocultar Paneles")]
+    public Button botonOcultarPaneles;
+
     // Variables para rastrear las prendas actuales
     private GameObject prendaSuperiorActual;
     private GameObject prendaComplementariaActual;
@@ -50,6 +53,9 @@ public class RopaChangerMultiConBotones : MonoBehaviour
         ConfigurarBotonesPrendas();
         ConfigurarSliders();
         OcultarTodosLosPanelesColor();
+
+        // Configurar botón para ocultar paneles
+        botonOcultarPaneles.onClick.AddListener(OcultarTodosLosPanelesColor);
     }
 
     void ConfigurarBotonesPrendas()
@@ -89,20 +95,11 @@ public class RopaChangerMultiConBotones : MonoBehaviour
 
     public void MostrarPanelExclusivo(GameObject panelAMostrar)
     {
-        // Ocultar todos los paneles primero
         OcultarTodosLosPanelesColor();
-
-        // Mostrar solo el panel solicitado
         if (panelAMostrar != null)
         {
             panelAMostrar.SetActive(true);
         }
-    }
-
-    public void OcultarPanelExclusivo()
-    {
-        // Ocultar todos los paneles primero
-        OcultarTodosLosPanelesColor();
     }
 
     void ConfigurarSliders()
@@ -122,7 +119,6 @@ public class RopaChangerMultiConBotones : MonoBehaviour
 
     public void SeleccionarPrenda(GameObject nuevaPrenda, string categoria)
     {
-        // Manejar la prenda según su categoría
         switch (categoria)
         {
             case "superior":
@@ -150,10 +146,7 @@ public class RopaChangerMultiConBotones : MonoBehaviour
                 break;
         }
 
-        // Activar la nueva prenda
         nuevaPrenda.SetActive(true);
-
-        // Configurar material para el control de color
         ConfigurarMaterial(nuevaPrenda, categoria);
     }
 
@@ -202,7 +195,6 @@ public class RopaChangerMultiConBotones : MonoBehaviour
         Material materialActual = null;
         Slider r = null, g = null, b = null;
 
-        // Obtener material y sliders correspondientes
         switch (categoria)
         {
             case "superior":
@@ -234,14 +226,13 @@ public class RopaChangerMultiConBotones : MonoBehaviour
                 break;
         }
 
-        // Actualizar color si el material existe
         if (materialActual != null)
         {
             materialActual.color = new Color(r.value, g.value, b.value);
         }
     }
 
-    void OcultarTodosLosPanelesColor()
+    public void OcultarTodosLosPanelesColor()
     {
         panelColorSuperiores.SetActive(false);
         panelColorComplementario.SetActive(false);

@@ -35765,6 +35765,7 @@ MonoBehaviour:
   sliderR_Calz: {fileID: 1989166610}
   sliderG_Calz: {fileID: 1943031548}
   sliderB_Calz: {fileID: 1150212677}
+  botonOcultarPaneles: {fileID: 339243599}
 --- !u!1 &978107113
 GameObject:
   m_ObjectHideFlags: 0
